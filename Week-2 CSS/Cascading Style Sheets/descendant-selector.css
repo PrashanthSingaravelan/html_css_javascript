@@ -1,0 +1,5 @@
+/* All the li elements which is inside the section */
+
+section  li {
+	color: red;
+}

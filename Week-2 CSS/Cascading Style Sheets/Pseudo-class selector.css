@@ -1,0 +1,41 @@
+header li {
+	list-style: none;  /* Removed the bullet points from the links */
+}
+
+/* link    --> link will specify that it is a link*/
+/* visited --> HTML allows you after clicking a particular link, different styles can be applied to that link than an unclicked link */
+
+a:link, a:visited {
+	text-decoration: none;     /* Remove that underline from the link */
+	background-color: yellow;
+	display: block;          /* To select the entire line */
+	border: 2px solid blue;  /* Border of that block */
+	width: 200px;       	 /* overall width (length from left to right) of the block */
+	margin-bottom: 1px; 	 /* To separate each and every individual blocks */
+	color:black;             /* color of the text (i.e link) */
+	text-align: center; 	 /* Alligning the text to the center within that block */
+}
+
+/* hover  --> When the user hovers(remain in one place) over the element */
+/* active --> It is the state when the user actually clicks on the element but hasn't yet released the click */
+
+a:hover, a:active {     /* keeping both hover and active together */
+	background-color: red;
+	color: green
+}
+
+/* Targetting a particular element Eg: targetting VIT website*/
+header ul li:nth-child(2) {
+	font-size: 24px; /* Makes the VIT website bigger */
+}
+
+/* Targetting the <div> elements,Every odd member of the list should have grey background color to be grey */
+section div:nth-child(odd) {
+	background-color: grey;
+}
+
+/* Change the hover behaviour of the 4th child */
+section div:nth-child(4):hover {  /* we can specify 2 pseudo selectors also */
+	background-color: blue;
+	cursor: pointer;
+}

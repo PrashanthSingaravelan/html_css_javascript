@@ -1,0 +1,56 @@
+/*.links { 
+	color: #fff;
+	text-align: justify;
+ }*/
+
+* {
+	box-sizing: border-box;
+	margin:0px;
+}
+
+.mt-5 {
+	margin-top: 50px;
+}
+
+.static {
+	position: static;  /*All the html and css elements are static always*/
+	left: 50px; /* No change */
+	border: 3px solid #73ad21;
+}
+
+.relative {
+	position: relative;
+	left:20px;
+	text-align: center;
+	border: 3px solid #73ad21;
+}
+
+.fixed {
+	position: fixed;
+	bottom: 0px;     /* to fix the at the bottom */
+	left:0px;  
+	width:100%;
+	text-align: center;
+	padding: 10px;
+	border: 3px solid #73ad21;
+	background: #73ad21;
+}
+
+.sticky { /* will remain at a place while scrolling */
+	position: sticky;
+	position: -webkit-sticky; /* For Safari browser */
+	top:0px; 			/* to fix at the top so that remains at the top while toggling */
+	left:0px;
+	padding: 5px;
+	width:100%;
+	border: 2px solid #73ad21;
+	background: #73ad21;
+}
+
+
+
+
+
+
+
+

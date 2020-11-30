@@ -1,0 +1,33 @@
+/* element selector */
+/* All h2 elements should be in red color and alligned center */
+h2 {
+	color: red;
+	text-align:center;
+}
+
+/* class selector */
+/* All with class "highlight" */
+.highlight{
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	background-color: yellow;
+	opacity: 0.6;
+		}
+
+/* 	id selector */
+/*  element with id="mainpoint"  */
+#maxpoint {
+	font-size: 24px;
+	font-weight:bold;
+	font-style: italic;
+	background-color: red;
+	opacity: 0.7;
+}
+
+/* group selector */
+/* All p and h1 elements */
+p,h1 {
+	color:brown;
+	text-align : center;
+}

@@ -1,0 +1,23 @@
+1) Element selector
+selector
+
+2) Class selector
+.<class_name> || class="<class_name>"
+
+3) ID selector
+#id<id_name>  || id="<id_name>"
+
+4) selector1 selector2   (Apply to all selector2 inside selector1)
+
+5) selector1, selector2  (Apply to both selector1 and selector2)
+
+6) Child selector(Direct Selector)  (Apply to all the selector2 which are parent to selector1)
+selector1 > selector2
+
+7) selector1 + selector2 (Apply to the selector2 which is immediately followed closing selector1)
+
+selector:hover (Will not be affected but when we move the mouse to the link then the style appears)
+
+selector1 selector2:last-child  (Last selector2 of selector1 will be targetted)
+
+selctor1 !important (This will only execute)

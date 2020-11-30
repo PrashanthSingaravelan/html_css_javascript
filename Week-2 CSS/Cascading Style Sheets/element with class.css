@@ -1,0 +1,22 @@
+/* Only class */
+/* all with class="highlight" */
+.highlight
+{
+	background-color: magenta;
+}
+
+/* element with class */
+/* all the p elements with class="highlight" */
+p.highlight
+{
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* 2 classes combination */
+/* all the elements with class='highlight' as well as the class='mainpoint' */
+.highlight.mainpoint
+{
+	color:red;
+	background-color: black;
+}

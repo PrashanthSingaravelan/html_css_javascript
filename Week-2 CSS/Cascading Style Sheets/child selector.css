@@ -1,0 +1,13 @@
+/* article element which is the direct child of the section element 
+(i.e) artilcle element whose immediate parent is section element */
+
+section>article {
+	color: red;
+	font-size: 24px;
+}
+
+/* Any h2 element which is a direct child of a section element,i.e., any h2 element whose immediate parent is a section element. */
+section>h2 {
+	color:green;
+	font-size:30px;
+}
