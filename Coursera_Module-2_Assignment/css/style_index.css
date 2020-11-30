@@ -1,0 +1,98 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:16px;
+
+}
+body{
+  background-color: #f0e4e4;
+}
+/***** heading ******/
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size:1.75em;
+}
+/***** Sections ******/
+#section1,#section2,#section3{
+  border: 2px solid black;
+  width: 100%;
+  height: 10em;
+  background-color:  #ffd3b6 ;
+  padding-left: 7px;
+  padding-bottom: 7px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/***** Overflow *****/
+div {
+  overflow:hidden;
+}
+div:hover {
+  overflow-y: auto;
+}
+/***** Titles ******/
+h3{
+  float:right;
+  margin:0;
+  position:relative;
+  top:10;
+  width:85px;
+  text-align: center;
+  border-left:2px solid black;
+  border-bottom:2px solid black;
+  font-size:1.25em;
+}
+
+#title1{
+  background-color: #ffaaa5;
+}
+#title2{
+  background-color: #dcedc1;
+}
+#title3{
+  background-color: #a8e6cf;
+}
+
+/********** For Desktops **********/
+@media (min-width: 992px) {
+  .col-lg {
+    float: left;
+    border: 5px solid #f0e4e4;
+    }
+  .col-lg {
+      width: 33.3%;
+  }
+    body{
+    position:absolute;
+    top:25%;
+    }
+  }
+/********** For Tablet **********/
+@media (min-width: 768px) and (max-width: 991.5px) {
+  .col-md ,.col{
+    float: left;
+    border: 5px solid #f0e4e4;
+    }
+  .col-md {
+      width: 50%;
+  }
+  .col{
+    width:100%;
+  }
+  body{
+    position:absolute;
+    top:12.5%;
+    }
+}
+/********** For Mobiles **********/
+@media (max-width: 767.5px) {
+  .col-sm {
+    float: left;
+    border: 5px solid #f0e4e4;
+    }
+  .col-sm {
+      width: 100%;
+  }
+}
