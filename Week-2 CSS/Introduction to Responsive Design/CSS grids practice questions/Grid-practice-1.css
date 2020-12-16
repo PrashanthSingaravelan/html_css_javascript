@@ -24,11 +24,7 @@
 }
 
 .header { grid-area:header;}
-
 .menu { grid-area:menu; }
-
 .main {	grid-area:main; }
-
 .Right { grid-area:Right; }
-
 .footer { grid-area:footer; }
