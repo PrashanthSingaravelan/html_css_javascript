@@ -3,29 +3,33 @@ div {
 }
 
 p {
-	width: 50px;
-	height: 50px;
 	border: 1px solid black;
+	margin-right:10px ;
+	float: left;
 }
 
 #p1 { 
+	width: 250px;
+	height: 250px;
 	background-color: #A52A2A;
-	float:left;
-	height: 150px
+	/*float:left;*/
+	/*height: 150px*/
  }
 
 #p2 { 
 	background-color: #DEB887;
-	float:right;
-	height: 100px
+	/*float:left;*/
+	/*height: 100px*/
  }
 
 #p3 { 
 	background-color: #5F9EA0;
-	clear:both;
+/*	clear:both;*/
  }
 
 #p4 { 
+	width: 250px;
+	height: 250px;
 	background-color: #FF7F50;
  }
 

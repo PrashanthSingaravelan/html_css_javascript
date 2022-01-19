@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Appication Forms</title>
+</head>
+
+<body>
+		<h1 content="justify"> Application form </h1>
+		<form action="" method="">
+			<label>Name : </label><input type="text" placeholder="Enter your Name">  <br>
+<!-- value="Enter your name". Here the user must clear the text box and then should enter the value -->
+<!-- But in place holders the text will automatically gets deleted when entering the name -->
+
+			<label>Passwords : </label><input type="password" placeholder="Enter your password"><br>
+			<label>Date of Birth : </label><input type="date"> </br>
+
+			<!-- Radio button -->
+			<lable>Gender : </lable><input type="radio" name="gender" value="Male">MALE
+									<input type="radio" name="gender" value="Female">FEMALE<br>
+			<label>Email : </label><input type="email"> <br>
+
+			<!-- Check box -->
+			<label>Language : </label><input type="checkbox" name="language" value="C">C-language
+									<input type="checkbox" name="language" value="C++">C++ language
+									<input type="checkbox" name="language" value="python">Python language
+									<input type="checkbox" name="language" value="Java">Java-language <br>
+			<!-- Drop-down box -->
+			<label>Department : </label>
+			<select>
+				<option name="Dept" value="CSC">Computer Science</option>
+				<option name="Dept" value="ECE">Electronics and Communication Technology</option>
+				<option name="Dept" value="Mech">Mechanical Engineering</option>
+			</select>
+			<br>
+
+<label>Comments : </label><textarea rows="10" columns="10" placeholder="Enter your comments"></textarea>
+<br>
+<label>Resume : </label><input type="file"> <br>
+<label>Choose your color : </label><input type="color"> <br>
+<input type="submit" value="press_to_submit">
+<input type="reset" value="press_to_reset">
+
+		
+		</form>
+</body>
+
+</html>
